@@ -1,0 +1,51 @@
+-r base.txt
+
+-r base.txt
+
+# For profiling
+django-silk
+
+
+# Django Silk Dependencies
+Jinja2
+MarkupSafe
+Pygments
+autopep8
+certifi
+chardet
+idna
+pycodestyle
+python-dateutil
+requests
+sqlparse
+urllib3
+
+
+# Helpful Extensions
+django-extensions
+
+
+# Django Extensions Dependencies
+werkzeug
+
+
+# Interactive python debugging
+ipdb
+
+
+# Interactive python debugging dependencies
+readline
+backports.shutil-get-terminal-size
+decorator
+enum34
+ipython
+ipython-genutils
+pathlib2
+pexpect
+pickleshare
+prompt-toolkit
+ptyprocess
+scandir
+simplegeneric
+traitlets
+wcwidth

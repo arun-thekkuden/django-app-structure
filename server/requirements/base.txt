@@ -1,0 +1,21 @@
+# Django Web Framework
+Django==2.0.8
+
+# Django Dependencies
+pytz==2017.3
+
+
+# Postgres Adapter
+psycopg2==2.7.3.2
+
+
+# Environment Variables
+django-environ==0.4.4
+
+# RESTful Web Services
+djangorestframework==3.7.3
+
+
+# Django REST Framework Dependencies
+markdown==2.6.10
+django-filter==1.1.0
