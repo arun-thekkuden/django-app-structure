@@ -5,6 +5,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
+DEBUG_APPS = [
+    'django_extensions',
+]
+
+INSTALLED_APPS += DEBUG_APPS
+
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
