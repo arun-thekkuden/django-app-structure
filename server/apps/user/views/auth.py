@@ -17,7 +17,7 @@ class LoginView(APIView):
     def post(self, request, format=None):
         user = authenticate(username=request.data.get('username'), password=request.data.get('password'))
         if not user:
-            return Response(status=status.HTTP_401_UNAUTHORIZED)
+            return Response(data={'status': "Invalid Credentials or User doesn't exist"}, status=status.HTTP_401_UNAUTHORIZED)
         token = AuthToken.objects.create(user)
         user_logged_in.send(sender=user.__class__, request=request, user=user)
         serializer = knox_settings.USER_SERIALIZER
